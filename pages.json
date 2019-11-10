@@ -1,0 +1,138 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "登录模板"
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }, {
+            "path": "pages/user/point",
+            "style": {
+                "navigationBarTitleText": "我的积分"
+            }
+        }, {
+            "path": "pages/user/info",
+            "style": {
+                "navigationBarTitleText": "我的资讯"
+            }
+        }, {
+            "path": "pages/user/notice",
+            "style": {
+                "navigationBarTitleText": "我的公告"
+            }
+        }, {
+            "path": "pages/user/survey",
+            "style": {
+                "navigationBarTitleText": "我的调研"
+            }
+        }, {
+            "path": "pages/user/forum",
+            "style": {
+                "navigationBarTitleText": "我的社群"
+            }
+        }, {
+            "path": "pages/user/feedback",
+            "style": {
+                "navigationBarTitleText": "意见反馈"
+            }
+        }, {
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "资讯"
+				}
+		}, {
+			"path": "pages/information/detail",
+			"style": {}
+		}, {
+			"path": "pages/training/training",
+			"style": {
+				"navigationBarTitleText": "培训"
+				}
+		}, {
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区"
+				}
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "最新公告"
+				}
+		}, {
+		    "path" : "pages/notice/list",
+		    "style" : {
+				"navigationBarTitleText": "全部公告"
+			}
+		}, {
+		    "path" : "pages/notice/detail",
+		    "style" : {}
+		}, {
+			"path": "pages/survey/survey",
+			"style": {
+				"navigationBarTitleText": "调研"
+			}
+		}, {
+		    "path" : "pages/survey/advice_detail",
+		    "style" : {}
+		}, {
+			"path": "pages/forum/forum",
+			"style": {
+				"navigationBarTitleText": "论坛"
+			}
+		},{
+			"path": "pages/forum/detail",
+			"style": {}
+		}
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/information/information",
+            "text": "资讯",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        }, {
+            "pagePath": "pages/main/main",
+            "text": "培训",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        }, {
+            "pagePath": "pages/community/community",
+            "text": "社区",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/img/user.png",
+            "selectedIconPath": "static/img/userHL.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    }
+}
