@@ -1,4 +1,4 @@
-# sample-uni-app 
+# sample-uniapp 
 
 > 简介
 
